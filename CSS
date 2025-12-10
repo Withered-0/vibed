@@ -1,0 +1,103 @@
+/* General Setup */
+body {
+    background-color: #1A1A1A; /* Deep Black/Ash */
+    color: #F0F0F0; /* Off-White Text */
+    font-family: sans-serif; /* Replace with your chosen Anime font */
+    margin: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+/* Typography & Tone */
+h1 {
+    font-size: 3.5em; /* Hyped and Confident */
+    color: #00FFFF; /* Electric Blue Highlight */
+    margin-bottom: 0.2em;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #F0F0F0;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1.5em;
+    border-bottom: 3px solid #00FFFF; /* Subtle Anime 'Panel' underline */
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Service Cards */
+.service-grid {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.service-card {
+    background-color: #2C2C2C; /* Lighter Ash for depth */
+    padding: 30px;
+    border-left: 5px solid #00FFFF; /* Strong, defining Anime edge */
+    box-shadow: 0 4px 15px rgba(0, 255, 255, 0.2); /* Subtle neon glow */
+    flex: 1;
+    max-width: 500px;
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px); /* Anime power-up effect */
+}
+
+.service-card h4 {
+    color: #00FFFF;
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+/* Call-to-Action (CTA) Button */
+.cta-button {
+    display: inline-block;
+    background-color: #00FFFF; /* Electric Blue Action Color */
+    color: #1A1A1A; /* Dark text on bright button */
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.cta-button:hover {
+    background-color: #00E0E0; /* Slightly darker on hover */
+    transform: scale(1.02);
+}
+
+.cta-banner {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #2C2C2C;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #2C2C2C;
+    font-size: 0.8em;
+    color: #999999;
+}
